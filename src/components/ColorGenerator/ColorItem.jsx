@@ -14,6 +14,7 @@ const ColorItem = ({ color, id, handleClick }) => {
       className={`grid-column col-${id}`}
       style={{ backgroundColor: color }}
       onClick={handleClick}
+      data-testid="grid-column"
     >
       <h1>{id}</h1>
     </div>
