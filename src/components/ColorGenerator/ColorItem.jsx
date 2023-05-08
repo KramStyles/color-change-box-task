@@ -5,7 +5,10 @@
 
 import PropTypes from "prop-types";
 
+// Define a component named ColorItem that takes in color, id, and handleClick as props
 const ColorItem = ({ color, id, handleClick }) => {
+  // Return a div with the class "grid-column col-{id}" and background color of the given color prop
+  // The onClick function is passed in from the parent component and triggers the handleClick function when clicked
   return (
     <div
       className={`grid-column col-${id}`}
@@ -17,6 +20,7 @@ const ColorItem = ({ color, id, handleClick }) => {
   );
 };
 
+// Define the propTypes for the ColorItem component to ensure the correct data types are used for each prop
 ColorItem.propTypes = {
   id: PropTypes.number.isRequired,
   color: PropTypes.string.isRequired,

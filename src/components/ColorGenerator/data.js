@@ -1,3 +1,4 @@
+// Array of Colors to be used in the ColorList Component
 export const colorArray = [
     "#0089E0",
     "#E53458",

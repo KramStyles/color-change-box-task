@@ -5,7 +5,7 @@
 
 import {useState} from "react";
 import ColorItem from "./ColorItem";
-import {colorArray} from "./data";
+import {colorArray} from "./data"; // Fixed list of colors from data.js
 
 const ColorList = () => {
   const [colors, setColors] = useState(colorArray);
@@ -19,6 +19,7 @@ const ColorList = () => {
   return (
     <div className="grid-container">
         {colors.map((color, id) => (
+            // loop through the colors and render ColorItem component with its specific properties
             <ColorItem color={color} id={id + 1} key={id} handleClick={simpleShuffle}/>
         ))}
     </div>
