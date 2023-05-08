@@ -12,7 +12,7 @@
 .grid-container {
   display: grid;
   gap: 10px;
-  margin: 20px 0;
+  margin: 10px 0;
   min-height: 98vh;
 }
 
@@ -23,6 +23,7 @@
   justify-content: center;
   padding: 30px;
   color: white;
+  cursor: pointer;
 }
 
 .col-1 {

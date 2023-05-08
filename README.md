@@ -1,6 +1,20 @@
-# Getting Started with Create React App
+# Code challenge: Color change boxes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Tasks
+
+Create a responsive page in a modern JavaScript framework (e.g. React or Vue.js)
+
+The page must switch between the below layouts depending on the screen width. When the screen is larger than 600px the desktop layout (left) should be used, and when it is smaller the mobile layout (right) should be used. Note that the exact size and spacing of boxes doesn't matter, please use your own judgement and make something with a consistent and simple layout that looks essentially like the example
+
+When any box is clicked, the colours of all boxes should be shuffled randomly (either to another colour in a fixed list of possibilities, or to any random colour - up to you)
+
+You can use any styling solution for CSS (regular CSS files, CSS-in-JS, etc). However, please write the CSS from scratch instead of using a framework
+
+blob:https://tokyotreat.atlassian.net/fdd053be-7f9d-4e71-ae38-4f845f5ac5dc
+
+Feel free to include comments to explain the intentions or thoughts behind what you're doing, and please get in touch if you have any questions.
+
+Good luck! がんばってください！
 
 ## Available Scripts
 
@@ -28,43 +42,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
