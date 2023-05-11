@@ -3,6 +3,7 @@
 ### Tasks
 
 Create a responsive page in a modern JavaScript framework (e.g. React or Vue.js)
+
 Link to Task: https://karm-color-change-box.netlify.app/
 
 The page must switch between the below layouts depending on the screen width. When the screen is larger than 600px the desktop layout (left) should be used, and when it is smaller the mobile layout (right) should be used. Note that the exact size and spacing of boxes doesn't matter, please use your own judgement and make something with a consistent and simple layout that looks essentially like the example
